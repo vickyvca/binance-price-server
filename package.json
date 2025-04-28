@@ -1,0 +1,14 @@
+
+{
+  "name": "binance-price-server",
+  "version": "1.0.0",
+  "description": "Microserver for fetching Binance prices",
+  "main": "binance_price_server.js",
+  "scripts": {
+    "start": "node binance_price_server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
